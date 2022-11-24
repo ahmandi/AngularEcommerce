@@ -1,4 +1,5 @@
-Project developed for learning more about Angular.
+Fullstack project under development for learning more about Angular.
+It uses Angular, NodeJS, Postman, MongoDB
 
 # Frontend
 
