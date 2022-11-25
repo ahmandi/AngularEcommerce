@@ -9,7 +9,8 @@ import { RatingModule } from 'ng-starrating';
 import { SearchComponent } from './components/partials/search/search.component';
 import { TagsComponent } from './components/partials/tags/tags.component';
 import { FoodPageComponent } from './components/pages/food-page/food-page.component';
-import { CartComponent } from './services/cart/cart.component';
+import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
+import { TitleComponent } from './components/partials/title/title.component';
 
 @NgModule({
   declarations: [
@@ -19,14 +20,11 @@ import { CartComponent } from './services/cart/cart.component';
     SearchComponent,
     TagsComponent,
     FoodPageComponent,
-    CartComponent
+    CartPageComponent,
+    TitleComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    RatingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, RatingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
